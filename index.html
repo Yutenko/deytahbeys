@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Datenbanken</title>
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <style>
+    .header {
+     width:100%;
+     height:120px;
+     background:#fff;
+    }
+    .phbern-logo {
+      display: block;
+    margin: 0 auto;
+    max-height: 55%;
+    padding: 20px;
+    max-width: 80%;
+    float:right;
+    }
+
+    </style>
+    <script src="https://www.gstatic.com/firebasejs/3.4.1/firebase.js#startOpened"></script>
+    <script>
+     // Initialize Firebase
+     var config = {
+      apiKey: "AIzaSyCKwpEIlM45HkEtJnuh8s-Dp8ZBM27mVhA",
+      authDomain: "deytahbeys-9b27d.firebaseapp.com",
+      databaseURL: "https://deytahbeys-9b27d.firebaseio.com",
+      storageBucket: "deytahbeys-9b27d.appspot.com",
+      messagingSenderId: "1008647493887"
+     };
+     firebase.initializeApp(config);
+    </script>
+  </head>
+  <body>
+    <div class="header">
+     <img src="client/images/phbern_logo_300dpi.png" class="phbern-logo"/>
+    </div>
+  <div id="app"></div>
+
+  <script src="dist/main.js"></script>
+  <script src="/googleanalyticstrackingcode.js"></script>
+  </body>
+</html>
